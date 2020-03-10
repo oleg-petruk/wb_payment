@@ -133,7 +133,7 @@ class PAYMENT_Core
         $val = get_option('wb_settings');
         $val = $val ? $val['secret_key'] : null;
         ?>
-        <input type="text" name="wb_settings[secret_key]" value="<?php echo esc_attr( $val ) ?>" />
+        <input type="password" name="wb_settings[secret_key]" value="<?php echo esc_attr( $val ) ?>" />
         <?php
     }
 
