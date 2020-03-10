@@ -1,0 +1,56 @@
+#wb-modal-payment {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+#wb-modal-payment .wb-modal-inner {
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+#wb-modal-payment #close-wb-form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#wb-modal-payment #close-wb-form:after {
+    content: '\2716';
+}
+
+#wb-modal-payment h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+#wb-modal-payment .close-payment-info {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#wb-modal-payment .wb-pay-btn {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+#wb-modal-payment form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+}
+#wb-modal-payment form input{
+    width: 100%;
+    margin-bottom: 15px;
+}
